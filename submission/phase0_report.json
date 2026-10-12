@@ -1,0 +1,24 @@
+{
+  "phase": "0",
+  "environment": {
+    "cloud_shell": true
+  },
+  "python": {
+    "version": "3.12.3",
+    "ok": true
+  },
+  "gcloud": {
+    "account": "Alina.Jiboy@eurecom.fr",
+    "project": "project-50465ec8-48f4-4544-a11",
+    "error": null
+  },
+  "docker": {
+    "version": "Docker version 29.8.2, build 7fc2dff",
+    "present": true
+  },
+  "git": {
+    "remote": "https://github.com/AlinaJiboy-web/clouds-lab.git",
+    "is_github": true,
+    "slug": "AlinaJiboy-web/clouds-lab"
+  }
+}
