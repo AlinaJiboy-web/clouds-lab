@@ -22,7 +22,7 @@ memory.
 **Your image size**, in MB, from `gcloud artifacts docker images list` (number only, e.g. `142`):
 
 <!--answer:image_size_mb-->
-78
+203
 <!--/answer-->
 
 **The custom VPC and subnet you created** (names only):
