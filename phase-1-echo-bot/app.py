@@ -26,7 +26,7 @@ def build_echo(message: str) -> dict:
     Must return exactly ``{"echo": <message>, "length": <len of message>}``.
     """
     # TODO: return {"echo": message, "length": len(message)}
-    raise NotImplementedError("Phase 1: implement build_echo()")
+    return {"echo": message, "length": len(message)}
 
 
 def extract_message(args, json_body) -> str | None:
@@ -41,7 +41,11 @@ def extract_message(args, json_body) -> str | None:
     """
     # TODO: return args["msg"] if present, else json_body["message"] if present,
     #       else None. Use .get() so missing keys don't raise.
-    raise NotImplementedError("Phase 1: implement extract_message()")
+    if args and "msg" in args:
+        return args["msg"]
+    if json_body and "message" in json_body:
+        return json_body["message"]
+    return None
 
 
 # --------------------------------------------------------------------------- #
