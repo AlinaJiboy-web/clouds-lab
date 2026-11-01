@@ -1,0 +1,30 @@
+{
+    "phase": "2",
+    "environment": {
+        "colab": true
+    },
+    "attention": {
+        "naive_ms": 238.189,
+        "vectorized_ms": 1.176,
+        "speedup": 202.54
+    },
+    "threads": {
+        "1": 2704.821,
+        "2": 2304.067,
+        "4": 2254.587,
+        "8": 2127.388
+    },
+    "devices": {
+        "cpu_ms": 432873.4,
+        "gpu_ms": 12654.1
+    },
+    "training": {
+        "steps": 2000,
+        "final_loss": 1.4727,
+        "param_count": 4935680
+    },
+    "sample": "\n\nShepherd:\nThe news your that you shounds parts unjectives\nOf your king aupper oqueround anturthing lad.\n\nThird Duke Cliford Apers, you not dequire.\n\nBAPTISTA:\nI aresed being in eduing the tready m",
+    "model": {
+        "gcs_url": "https://storage.googleapis.com/project-50465ec8-48f4-4544-a11-eurecomgpt/model.safetensors"
+    }
+}
